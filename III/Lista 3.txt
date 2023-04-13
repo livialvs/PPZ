@@ -1,0 +1,56 @@
+Nome: Livia Alves de Faria
+Turma: 1° DSM
+
+
+EXERCÍCIO 1)
+
+nota = float(input('Nota: '))
+while nota < 0 or nota > 10:
+    print('Apenas notas de 0 a 10 são válidas.')
+    nota = float(input('Nota: '))
+
+
+EXERCÍCIO 2)
+
+usuário = input('Usuário: ')
+senha = input('Senha: ')
+while usuário == senha:
+    print('Erro: usuário e senha não podem ser iguais. Tente novamente.')
+    usuário = input('Usuário: ')
+    senha = input('Senha: ')
+
+
+EXERCÍCIO 3)
+
+a = 80000
+b = 200000
+anos = 0
+while a <= b:
+  a = a + a * 0.03
+  b = b + b * 0.015
+  anos = anos + 1
+print (f'{anos} anos.')
+
+
+EXERCÍCIO 4)
+
+n = int(input('Valor do número: '))
+a, b = 1, 1
+k = 1
+while k <= n - 2:
+    a, b = b, a + b
+    k = k + 1
+print(b)
+
+
+EXERCÍCIO 5)
+
+a = int(input('a: '))
+b = int(input('b: '))
+while a % b != 0:
+    a, b = b, a%b
+print(f'mdc: {b}')
+
+    
+    
+

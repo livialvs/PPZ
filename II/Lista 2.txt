@@ -1,0 +1,105 @@
+Nome: Livia Alves de Faria
+Turma: 1° DSM
+
+
+EXERCÍCIO 1)
+
+a = float(input('Lado A: '))
+b = float(input('Lado B: '))
+c = float(input('Lado C: '))
+if a > b + c or b > a + c or c > a + b:
+    print('Não pode ser um triângulo')
+elif a == b == c:
+    print('É um triângulo equilátero')
+elif a == b or b == c or a == c:
+    print('É um triângulo isóceles')
+else:
+    print('É um triângulo escaleno')
+
+
+EXERCÍCIO 2)
+
+ano = int(input('Ano: '))
+if ano % 4 == 0 and (ano % 100 != 0 or ano % 400 == 0):
+    print('É um ano bissexto.')
+else:
+    print('Não é um ano bissexto.')
+
+
+EXERCÍCIO 3)
+
+peso = float(input('Peso de peixes em kg: '))
+if peso > 50:
+    excesso = peso - 50
+    multa = excesso * 4
+else:
+    excesso = 0
+    multa = 0
+print(f'Excesso: {excesso} kg')
+print(f'Multa: R${multa:.2f}')
+
+
+EXERCÍCIO 4)
+
+a = float(input('Primeiro número: '))
+b = float(input('Segundo número: '))
+c = float(input('Terceiro número: '))
+if b <= a >= c:
+    print(f'O maior número é {a:.2f}')
+elif a < b > c:
+    print(f'O maior número é {b:.2f}')
+else:
+    print(f'O maior número é {c:.2f}')
+
+
+EXERCÍCIO 5)
+
+a = float(input('Primeiro número: '))
+b = float(input('Segundo número: '))
+c = float(input('Terceiro número: '))
+if b <= a >= c:
+    print(f'O maior número é {a:.2f}')
+elif a < b > c:
+    print(f'O maior número é {b:.2f}')
+else:
+    print(f'O maior número é {c:.2f}')
+
+if b >= a <= c:
+    print(f'O menor número é {a:.2f}')
+elif a > b < c:
+    print(f'O menor número é {b:.2f}')
+else:
+    print(f'O menor número é {c:.2f}')
+
+
+EXERCÍCIO 6)
+
+valor = float(input('Valor por hora: '))
+horas = int(input('Horas trabalhadas por mês: '))
+salário = valor * horas
+ir = salário * 11/100
+inss = salário * 8/100
+sindicato = salário * 5/100
+salário2 = salário - ir - inss - sindicato
+print(f'+Salário Bruto: R${salário:.2f}')
+print(f'-IR: R${ir:.2f}')
+print(f'-INSS: R${inss:.2f}')
+print(f'-Sindicato: R${sindicato:.2f}')
+print(f'=Salário Líquido: R${salário2:.2f}')
+
+
+EXERCÍCIO 7)
+
+m = float(input('Área a ser pintada em m²: '))
+if m % 54 == 0:
+    latas = m/54
+    print(f'Latas: {latas}')
+    print(f'Valor: R${latas * 80:.2f}')
+else:
+    latas = int(m/54 + 1)
+    print(f'Latas: {latas}')
+    print(f'Valor: R${latas * 80:.2f}') 
+
+
+
+

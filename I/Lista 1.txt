@@ -1,0 +1,78 @@
+Nome: Livia Alves de Faria
+Turma: 1° DSM
+
+EXERCÍCIO 1)
+
+primeiro = int(input('n1: '))
+segundo = int(input('n2: '))
+print (primeiro + segundo)
+
+EXERCÍCIO 2)
+
+metro = int(input('metros: '))
+print (f'milímetros: {metro * 1000}')
+
+EXERCÍCIO 3)
+
+dias = int(input('dias: '))
+horas = int(input('horas: '))
+minutos = int(input('minutos: '))
+segundos = int(input('segundos: '))
+print (dias * 24 * 60 * 60 + horas * 60 * 60 + minutos * 60 + segundos)
+
+EXERCÍCIO 4)
+
+s = float(input('salário: '))
+a = float(input('aumento%: '))
+aumento = s * a /100
+salario = s + aumento
+print (f'aumento: R$ {aumento .2f}')
+print (f'novo: R$ {salario .2f}')
+
+EXERCÍCIO 5)
+
+p = float(input('preço: '))
+d = float(input('% de desconto: '))
+desconto = p * d/100
+preço = p - desconto
+print(f'desconto: R$ {desconto:.2f}')
+print(f'novo preço: R$ {preço:.2f}')
+
+EXERCÍCIO 6)
+
+d = float(input('distância a percorrer em km: '))
+vm = float(input('velocidade média em km/h: '))
+tempo= d/vm
+print(f'tempo: {tempo:.2f}')
+
+EXERCÍCIO 7)
+
+tc = float(input('Temp. em Celsius: '))
+tf = 9*tc/5+32
+print(f'Temp. em Fahrenheit: {tf:.2f}')
+
+EXERCÍCIO 8)
+
+tf = float(input('Temp. em Fahrenheit: '))
+tc = (tf - 32)*5/9
+print(f'Temp. em Celsius: {tc:.2f}')
+
+EXERCÍCIO 9)
+
+km = float(input('Km percorridos: '))
+d = float(input('Dias com o carro: '))
+preço = km * 0.15 + d * 60
+print(f'Preço a pagar: R${preço:.2f}')
+
+EXERCÍCIO 10)
+
+cigarro = int(input('Cigarros por dia: '))
+ano = int(input('Anos fumando: '))
+total = cigarro * ano * 365
+d = total/144
+print(f'{d:.2f} dias de vida foram perdidos.')
+
+EXERCÍCIO 11)
+
+print(len(str(2**1000000)))
+
