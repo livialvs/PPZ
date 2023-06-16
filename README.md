@@ -35,4 +35,28 @@
         <td>Lista VII</td>
         <td>✅</td>
     </tr>
+        <tr>
+        <td>Lista IX</td>
+        <td>✅</td>
+    </tr>
+        <tr>
+        <td>Lista X</td>
+        <td>✅</td>
+    </tr>
+        <tr>
+        <td>Lista XI</td>
+        <td>✅</td>
+    </tr>
+        <tr>
+        <td>Lista XII</td>
+        <td>✅</td>
+    </tr>
+        <tr>
+        <td>Lista XIII</td>
+        <td>✅</td>
+    </tr>
+        <tr>
+        <td>Lista XIV</td>
+        <td>✅</td>
+    </tr>
 </table>
